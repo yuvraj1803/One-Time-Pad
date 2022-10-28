@@ -1,0 +1,3 @@
+This program encrypts and decrypts a file based on a given password. The efficiency of the encryption algorithm is 100%. This is known as the One-Time-Pad. But, at the cost of its security and efficiency, we have to store huge passwords that can be as large as the input itself. But considering the scale of our project, we can disregard these.
+
+We take in a password as a string and then convert it to a 32-bit integer(pwd_i). How this is done will be explained later. Then the data which needs to be encrypted or decrypted, passed through the OTP and encrpyted using the same.
